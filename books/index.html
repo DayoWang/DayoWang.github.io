@@ -116,6 +116,7 @@
 <meta property="og:image" content="http://wgy.me/assets/douban-loading.gif">
 <meta property="og:image" content="http://wgy.me/assets/douban-loading.gif">
 <meta property="og:image" content="http://wgy.me/assets/douban-loading.gif">
+<meta property="og:image" content="http://wgy.me/assets/douban-loading.gif">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="阅读">
 <meta name="twitter:description" content="要么读书，要么旅行，身体和灵魂总有一个在路上         .hexo-douban-tabs {     margin-bottom: 15px;     margin-top: 15px; }  .hexo-douban-tab {     padding: 5px; }  .hexo-douban-active {     background:">
@@ -138,9 +139,9 @@
       author: '博主'
     },
     algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
+      applicationID: 'SN9CGWBLYE',
+      apiKey: 'dbf35851471039ae2a2323cfb190a714',
+      indexName: 'wgy_blog',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
@@ -251,9 +252,47 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -372,11 +411,11 @@
     <a class="hexo-douban-tab" id="hexo-douban-tab1" href="javascript:;"
        rel="external">
         在读
-        (6)</a>
+        (8)</a>
     <a class="hexo-douban-tab" id="hexo-douban-tab2" href="javascript:;"
        rel="external">
         想读
-        (9)</a>
+        (8)</a>
     <a class="hexo-douban-tab" id="hexo-douban-tab3" href="javascript:;"
        rel="external">
         已读
@@ -386,11 +425,37 @@
     <div id="hexo-douban-item1">
         
         <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img3.doubanio.com/view/subject/m/public/s29414590.jpg" referrerPolicy="no-referrer" /></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/27009488/"> 财务自由之路</a></div>
+        <div class="hexo-douban-meta">[德] 博多·舍费尔 / 2017-3 现代出版社
+            / 8.0 分
+        </div>
+        <div class="hexo-douban-meta">2018-10-20 / </div>
+        <div class="hexo-douban-comments"></div>
+    </div>
+</div>
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img1.doubanio.com/view/subject/m/public/s1789059.jpg" referrerPolicy="no-referrer" /></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/1291204/"> 哥德尔、艾舍尔、巴赫</a></div>
+        <div class="hexo-douban-meta">[美] 侯世达 / 1997-5 商务印书馆
+            / 9.4 分
+        </div>
+        <div class="hexo-douban-meta">2018-10-16 / 哲学 艺术 人工智能</div>
+        <div class="hexo-douban-comments"></div>
+    </div>
+</div>
+
+        
+        <div class="hexo-douban-item">
     <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img3.doubanio.com/view/subject/m/public/s29825692.jpg" referrerPolicy="no-referrer" /></div>
     <div class="hexo-douban-info">
         <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/30280401/"> 精通比特币 第2版（影印版）</a></div>
         <div class="hexo-douban-meta">Andreas M. Antonopoulos / 2018-7-1 南京东南大学出版社
-            / 0.0 分
+            / 8.8 分
         </div>
         <div class="hexo-douban-meta">2018-09-22 / 区块链 bitcoin</div>
         <div class="hexo-douban-comments"></div>
@@ -455,7 +520,7 @@
     <div class="hexo-douban-info">
         <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/26860970/"> 区块链技术驱动金融</a></div>
         <div class="hexo-douban-meta">阿尔文德·纳拉亚南,约什·贝努,爱德华·费尔顿,安德鲁·米勒,史蒂文·戈德费德 / 2016-8-25 中信出版社,中信出版集团
-            / 8.4 分
+            / 8.3 分
         </div>
         <div class="hexo-douban-meta">2018-09-21 / 区块链 金融科技</div>
         <div class="hexo-douban-comments"></div>
@@ -472,19 +537,6 @@
 </div>
     </div>
     <div id="hexo-douban-item2">
-        
-        <div class="hexo-douban-item">
-    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img1.doubanio.com/view/subject/m/public/s1789059.jpg" referrerPolicy="no-referrer" /></div>
-    <div class="hexo-douban-info">
-        <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/1291204/"> 哥德尔、艾舍尔、巴赫</a></div>
-        <div class="hexo-douban-meta">[美] 侯世达 / 1997-5 商务印书馆
-            / 9.4 分
-        </div>
-        <div class="hexo-douban-meta">2018-10-02 / 哲学 艺术 人工智能</div>
-        <div class="hexo-douban-comments"></div>
-    </div>
-</div>
-
         
         <div class="hexo-douban-item">
     <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img1.doubanio.com/view/subject/m/public/s3802188.jpg" referrerPolicy="no-referrer" /></div>
@@ -582,7 +634,7 @@
     <div class="hexo-douban-info">
         <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/26931905/"> 终极算法</a></div>
         <div class="hexo-douban-meta">[美] 佩德罗·多明戈斯 / 2017-1-1 中信出版集团
-            / 7.2 分
+            / 7.1 分
         </div>
         <div class="hexo-douban-meta">2018-09-22 / 算法 人工智能 未来</div>
         <div class="hexo-douban-comments"></div>
@@ -736,7 +788,7 @@
     <div class="hexo-douban-info">
         <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/27025912/"> Spring Cloud微服务实战</a></div>
         <div class="hexo-douban-meta">翟永超 / 2017-5 电子工业出版社
-            / 7.9 分
+            / 7.7 分
         </div>
         <div class="hexo-douban-meta">2018-09-22 / SpringCloud 微服务 / </div>
         <div class="hexo-douban-comments"></div>
@@ -749,7 +801,7 @@
     <div class="hexo-douban-info">
         <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/26772677/"> 微服务设计</a></div>
         <div class="hexo-douban-meta">[英] Sam Newman / 2016-5 人民邮电出版社
-            / 8.2 分
+            / 8.1 分
         </div>
         <div class="hexo-douban-meta">2018-09-22 / 微服务 模式与架构 / </div>
         <div class="hexo-douban-comments"></div>
@@ -775,7 +827,7 @@
     <div class="hexo-douban-info">
         <div class="hexo-douban-title"><a target="_blank" href="https://book.douban.com/subject/27091029/"> 分布式服务架构：原理、设计与实战</a></div>
         <div class="hexo-douban-meta">李艳鹏,杨彪 / 2017-8 电子工业出版社
-            / 7.2 分
+            / 7.4 分
         </div>
         <div class="hexo-douban-meta">2018-09-22 / 分布式 架构 / </div>
         <div class="hexo-douban-comments"></div>
@@ -979,7 +1031,7 @@ for (var i = 0; i < firstpages.length; i++) {
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -987,6 +1039,15 @@ for (var i = 0; i < firstpages.length; i++) {
 
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -1000,6 +1061,12 @@ for (var i = 0; i < firstpages.length; i++) {
                     <a href="https://github.com/dayowang" target="_blank" title="GitHub">
                       
                         <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:dayowang@hotmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
                 
             </div>
@@ -1199,8 +1266,128 @@ for (var i = 0; i < firstpages.length; i++) {
 
 
 
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
 
   
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("lpEh2cleV7ItPj7G9LeiWXMi-gzGzoHsz", "Kok9jIKoD2M9ET3IRJjls7n3");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
