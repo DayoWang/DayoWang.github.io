@@ -431,7 +431,7 @@
                 
               
 
-              <time title="创建时间：2019-06-29 21:29:56 / 修改时间：21:36:52" itemprop="dateCreated datePublished" datetime="2019-06-29T21:29:56+08:00">2019-06-29</time>
+              <time title="创建时间：2019-06-29 21:29:56 / 修改时间：21:42:09" itemprop="dateCreated datePublished" datetime="2019-06-29T21:29:56+08:00">2019-06-29</time>
             
 
             
@@ -548,19 +548,21 @@
 <li>SkyWalking OAP Server, <a href="https://hub.docker.com/r/apache/skywalking-oap-server" target="_blank" rel="noopener">https://hub.docker.com/r/apache/skywalking-oap-server</a></li>
 <li>SkyWalking UI, <a href="https://hub.docker.com/r/apache/skywalking-ui" target="_blank" rel="noopener">https://hub.docker.com/r/apache/skywalking-ui</a></li>
 </ul>
-<h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><p><strong>SkyWalking OAP Server 部署</strong><br><em>Docker Pull Command</em></p>
+<h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><p><strong>SkyWalking OAP Server 部署</strong></p>
+<p>OAP Server 镜像</p>
 <blockquote>
 <p>docker pull apache/skywalking-oap-server</p>
 </blockquote>
-<p>使用H2作为存储，并启动<br><em>Docker Run Command</em></p>
+<p>使用H2作为存储，并启动</p>
 <blockquote>
 <p>docker run –name skywalking-oap –restart always -d -p 11800:11800 -p 12800:12800 -e TZ=Asia/Shanghai apache/skywalking-oap-server:6.1.0</p>
 </blockquote>
-<p><strong>SkyWalking UI 部署</strong><br><em>Docker Pull Command</em></p>
+<p><strong>SkyWalking UI 部署</strong></p>
+<p>UI 镜像</p>
 <blockquote>
 <p>docker pull apache/skywalking-ui</p>
 </blockquote>
-<p>链接到oap server，并关联到12800端口<br><em>Docker Run Command</em></p>
+<p>链接到oap server，并关联到12800端口</p>
 <blockquote>
 <p>docker run –name skywalking-oap-ui –link skywalking-oap:skywalking-oap –restart always -d -p 8080:8080 -e SW_OAP_ADDRESS=skywalking-oap:12800 -e TZ=Asia/Shanghai apache/skywalking-ui:6.1.0</p>
 </blockquote>
